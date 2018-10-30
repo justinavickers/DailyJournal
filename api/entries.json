@@ -1,0 +1,26 @@
+{
+ "entries" : [
+  {
+    "date": "07/24/2018",
+    "concept": "Array methods",
+    "entry": "We learned about different array methods today. forEach made sense, but the others still confuse me.",
+    "mood": "happy"
+  },
+
+  {
+    "date": "10-18-2018",
+    "concept": "Plural Routes",
+    "entry": "We learned how to use Postman.",
+    "mood": "happy"
+
+  },
+
+  {
+    "date": "10/22/2018",
+    "concept": "Grunt",
+    "entry": "We learned what grunt does and how it works for us.",
+    "mood": "happy"
+  }
+]
+
+}

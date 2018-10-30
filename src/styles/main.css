@@ -61,6 +61,7 @@ body{
     animation: Gradient 15s ease infinite;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
+    text-align: center;
     
   }
 
@@ -113,3 +114,8 @@ button {
   margin: auto;
   display: block;
 }
+
+/* .entryLog {
+  display: flex;
+  flex-direction: column;
+} */

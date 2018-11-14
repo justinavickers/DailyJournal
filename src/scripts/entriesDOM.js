@@ -3,5 +3,4 @@ function renderJournalEntries(journalEntries) {
     article.innerHTML += makeJournalEntryComponent(journalEntry);
   });
 }
-
 const article = document.querySelector(".entryLog");

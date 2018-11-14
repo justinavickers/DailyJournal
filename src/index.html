@@ -24,23 +24,24 @@
       <input type="text" name="conceptsCovered" id="conceptsCovered">
   </fieldset>
   <fieldset>
-      <label for="journalEntry">Journal Entry</label> 
-      <textarea id="textarea" rows="1" cols="20"></textarea>
+      <label for="journalEntry">Journal Entry</label>
+      <textarea type="textarea" rows="1" cols="20" id="journalEntry"></textarea>
     </fieldset>
-    
+
       <fieldset>
-      <label for="MoodfortheDay" id="Mood">Mood for the Day</label>
+      <label for="MoodfortheDay" id="mood">Mood for the Day</label>
       <select>
+        <option selected disabled hidden>Pick a Mood</option>
           <option value="Happy">Happy</option>
           <option value="Excited">Excited</option>
           <option value="Sad">Sad</option>
           <option value="Upset">Upset</option>
         </select>
       </fieldset>
-     </form>
+    </form>
+    <button class="dailyEntry" id="recordEntryButton">Record Your Entry!</button>
     </div>
     <article class="entryLog"> </article>
-  <button>Record Your Entry!</button>
   <script src="/src/scripts/data.js"></script>
   <script src="/src/scripts/entriesDOM.js"></script>
   <script src="/src/scripts/entryComponent.js"></script>

@@ -6,8 +6,9 @@
 
 const API = {
   getJournalEntries () {
-    console.log("get journal entries running")
+    console.log("get API")
       return fetch("http://localhost:3000/entries")
           .then(response => response.json())
   }
 }
+

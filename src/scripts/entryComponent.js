@@ -7,3 +7,5 @@ const makeJournalEntryComponent = (journalEntry) => {
   <h3>${journalEntry.mood}</h3>
   `
 }
+
+

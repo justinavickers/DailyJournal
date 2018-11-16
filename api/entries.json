@@ -20,6 +20,24 @@
       "entry": "We learned what grunt does and how it works for us.",
       "mood": "happy",
       "id": 3
+    },
+    {
+      "date": "2018-11-29",
+      "concepts": "hey",
+      "entry": "shit",
+      "id": 4
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "id": 5
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "",
+      "id": 6
     }
   ]
 }

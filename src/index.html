@@ -1,43 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Daily Journal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
- <!-- google fonts -->
+  <link rel="stylesheet" type="text/css" media="screen" href="/styles/main.css">
+  <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
- </head>
-<body>
-<h1>Daily Journal</h1>
-<div class="form">
- <form>
-    <fieldset>
-      <label for="journalDate">Date of Entry</label>
-      <input type="Date" name="journalDate" id="journalDate">
-    </fieldset>
+</head>
 
-    <fieldset>
-      <label for="conceptsCovered">Concepts Covered</label>
-      <input type="text" name="conceptsCovered" id="conceptsCovered">
-  </fieldset>
-  <fieldset>
-      <label for="journalEntry">Journal Entry</label> 
-      <textarea id="textarea" rows="1" cols="20"></textarea>
-    </fieldset>
-    
-      <fieldset>
-      <label for="MoodfortheDay">Mood for the Day</label>
-      <select>
-          <option value="Happy">Happy</option>
-          <option value="Excited">Excited</option>
-          <option value="Sad">Sad</option>
-          <option value="Upset">Upset</option>
-        </select>
-      </fieldset>
-     </form>
-    </div>
-  <button>Record Your Entry!</button>
+<body>
+  <h1>Daily Journal</h1>
+
+  <div class="form" id="masterDiv"></div>
+
+  <article class="entryLog" id="entryLog"> </article>
+  <script src="/scripts/fetchingData.js"></script>
+  <script src="/scripts/entriesDOM.js"></script>
+  <script src="/scripts/formComponent.js"></script>
+  <script src="/scripts/entryComponent.js"></script>
+  <script src="/scripts/journal.js"></script>
 </body>
+
 </html>

@@ -16,14 +16,15 @@ fieldset {
   border-radius:  30px;
   border: white dashed;
 }
+
 input[type=text], input[type=date], textarea, select{
   width: 100%;
   padding: 10px 20px;
   margin: 8px 0;
-   border: 1px solid rgb(109, 106, 106);
+  border: 1px solid rgb(109, 106, 106);
   border-radius: 6px;
   box-sizing: border-box;
-  box-shadow: 3px 3px 2px 1px rgb(109, 106, 106); 
+  box-shadow: 3px 3px 2px 1px rgb(109, 106, 106);
 }
 
 
@@ -42,13 +43,13 @@ border-radius: 5px;
 }
 
 textarea {
-  display: flex;
+display: flex;
 flex-direction: column;
 
 }
 
 select {
-  display: flex;
+display: flex;
 flex-direction: column;
 }
 
@@ -62,11 +63,11 @@ body{
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     text-align: center;
-    
+
   }
 
- 
-  
+
+
   @-webkit-keyframes Gradient {
     0% {
       background-position: 0% 50%
@@ -78,7 +79,7 @@ body{
       background-position: 0% 50%
     }
   }
-  
+
   @-moz-keyframes Gradient {
     0% {
       background-position: 0% 50%
@@ -90,7 +91,7 @@ body{
       background-position: 0% 50%
     }
   }
-  
+
   @keyframes Gradient {
     0% {
       background-position: 0% 50%

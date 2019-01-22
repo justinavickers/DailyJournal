@@ -22,28 +22,17 @@
       "id": 3
     },
     {
-      "date": "2018-11-29",
+      "date": "2019-01-22",
+      "concepts": "food api",
+      "entry": "we went over going through data on postman",
+      "id": 9
+    },
+    {
+      "date": "2019-01-24",
       "concepts": "hey",
-      "entry": "shit",
-      "id": 4
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "id": 5
-    },
-    {
-      "date": "",
-      "concepts": "",
-      "entry": "",
-      "id": 6
-    },
-    {
-      "date": "2018-11-23",
-      "concepts": "hey",
-      "entry": "shit",
-      "id": 7
+      "entry": "yo",
+      "mood": "Excited",
+      "id": 10
     }
   ]
 }

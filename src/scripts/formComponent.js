@@ -1,5 +1,3 @@
-console.log("test")
-
 masterDiv = document.getElementById("masterDiv")
 
 formSomething = document.createElement("form")

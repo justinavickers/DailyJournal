@@ -15,8 +15,27 @@
   <h1>Daily Journal</h1>
 
   <div class="form" id="masterDiv"></div>
-
   <article class="entryLog" id="entryLog"> </article>
+
+  <h2>Select Journal Entries by Mood </h2>
+  <div class="radioButtons" id="radioButtons">
+  <div>
+    <input type="radio" id="happy" value="happy">
+    <label class="radioLabel" for="happy">Happy</label>
+  </div>
+  <div>
+    <input type="radio" id="excited" value="excited">
+    <label class="radioLabel" for="excited">Excited</label>
+  </div>
+  <div>
+    <input type="radio" id="sad" value="sad">
+    <label class="radioLabel" for="sad">Sad</label>
+  </div>
+  <div>
+      <input type="radio" id="upset" value="upset">
+      <label class="radioLabel" for="upset">Upset</label>
+    </div>
+</div>
   <script src="/scripts/fetchingData.js"></script>
   <script src="/scripts/entriesDOM.js"></script>
   <script src="/scripts/formComponent.js"></script>

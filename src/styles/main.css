@@ -29,13 +29,19 @@ input[type=text], input[type=date], textarea, select{
 
 
 
-label{
+label {
   display: inline-block;
   clear: left;
   width: 250px;
   text-align: center;
 }
 
+.radioLabel {
+  display: inline-block;
+  clear: left;
+  width: 10px;
+  text-align: center;
+}
 
 #textarea {
 padding-block-end: 15px;
@@ -114,5 +120,55 @@ button {
   padding: 10px;
   margin: auto;
   display: block;
+}
+
+.journalCard {
+  border: 2px dashed rgb(241, 248, 241);
+  padding: 15px;
+  margin:10px 55px 10px 55px;
+  border-radius: 15px;
+}
+
+input:checked {
+  border: 6px solid black;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+button,
+legend {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+}
+
+button:hover,
+button:focus {
+  color: #999;
+}
+
+button:active {
+  background-color: white;
+  color: rgb(17, 15, 15);
+  outline: 1px solid rgb(17, 15, 15);
 }
 
